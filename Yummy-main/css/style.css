@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.home .layout{
+    background-color: rgba(240, 248, 255,0.75);
+    cursor: pointer;
+    /* display: none; */
+    top:150px;
+    opacity: 0;
+    display: flex;
+}
+.home .inner-box{
+    cursor: pointer;
+}
+nav{
+    width: 25%;
+}
+.logo{
+    width: 20%;
+    background-color: white;
+}
+.links{
+    width: 80%;
+    background-color: black;
+    display: flex; 
+}
+.links li{
+    display: none;
+}
+nav{
+    left:-300px;
+}
+p.ingredientparagraph{
+    height: 100px;
+}
